@@ -18,6 +18,7 @@ $ git remote remove origin
 
 - Technology Used :-Android Studio,XML,SQLite,ListView
 - Feature :- Add Employees,Delete Employee,Edit Employee,View Employee,Perform SQL Operation
+- Learn From :- <a src = "https://www.simplifiedcoding.net/android-sqlite-database-example/"></a>
 
 ### How it looks 
 <table>
