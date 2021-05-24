@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SQLite Database</string>
+    <array name="deparments">
+        <item>Technical</item>
+        <item>Support</item>
+        <item>Research and Development</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+    </array>
+
+
 </resources>
