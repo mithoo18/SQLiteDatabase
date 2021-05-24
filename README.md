@@ -23,20 +23,16 @@ $ git remote remove origin
 <table>
 <tr>
   <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/1.jpg" alt="1 Img" /></td>
-
-<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/2.jpg" alt="2 Img" /></td>
+  <td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/2.jpg" alt="2 Img" /></td>
   <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/3.jpg" alt="3 Img" /></td>
-
-<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/4.jpg" alt="4 Img" /></td>
-  </tr>
-  <tr>
+  <td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/4.jpg" alt="4 Img" /></td>
+</tr>
+<tr>
   <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/5.jpg" alt="5 Img" /></td>
-
-<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/6.jpg" alt="6 Img" /></tdSQLiteDatabase
-  <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/7.jpg" alt="7 Img" SQLiteDatabasetd>
-  </tr>
+  <td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/6.jpg" alt="6 Img" /></td>
+  <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/7.jpg" alt="7 Img" /></td> 
+ </tr>
 </table>
 
 
 #### Developed with ❤ by @Devanshu || mithoo18.
-
