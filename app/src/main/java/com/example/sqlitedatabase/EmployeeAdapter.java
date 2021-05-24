@@ -25,8 +25,8 @@ public class EmployeeAdapter extends ArrayAdapter<Employee> {
     List<Employee> employeeList;
     SQLiteDatabase mDatabase;
 
-    public EmployeeAdapter(@NonNull Context context, int resource, List<Employee> employeeList) {
-        super(context, resource);
+    public EmployeeAdapter(Context mCtx, int listLayoutRes, List<Employee> employeeList, SQLiteDatabase mDatabase) {
+        super(mCtx, listLayoutRes, employeeList);
         this.mCtx = mCtx;
         this.listLayoutRes = listLayoutRes;
         this.employeeList = employeeList;

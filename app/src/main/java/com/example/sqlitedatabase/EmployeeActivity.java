@@ -49,7 +49,7 @@ public class EmployeeActivity extends AppCompatActivity {
 
         cursorEmployees.close();
 
-        adapter = new EmployeeAdapter(this, R.layout.list_layout_employee, employeeList);
+        adapter = new EmployeeAdapter(this, R.layout.list_layout_employee, employeeList,mDatabase);
         listViewEmployees.setAdapter(adapter);
 
     }
