@@ -40,7 +40,7 @@ public class EmployeeActivity extends AppCompatActivity {
                         cursorEmployees.getString(1),
                         cursorEmployees.getString(2),
                         cursorEmployees.getString(3),
-                        cursorEmployees.getInt(4)
+                        cursorEmployees.getDouble(4)
                 ));
 
             }
