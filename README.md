@@ -24,12 +24,11 @@ $ git remote remove origin
 <tr>
   <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/1.jpg" alt="1 Img" /></td>
 
-<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/2.jpg" alt="2 Img" /></tdSQLiteDatabase
-  <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/3.jpg" alt="3 Img" SQLiteDatabasetd>
+<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/2.jpg" alt="2 Img" /></td>
+  <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/3.jpg" alt="3 Img" /></td>
 
-<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/4.jpg" alt="4 Img" SQLiteDatabase</td>
+<td><img align="right" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/4.jpg" alt="4 Img" /></td>
   </tr>
-  
   <tr>
   <td><img align="left" src="https://github.com/mithoo18/SQLiteDatabase/blob/master/gitimg/5.jpg" alt="5 Img" /></td>
 
