@@ -1,6 +1,7 @@
 package com.example.sqlitedatabase;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.view.LayoutInflater;
@@ -59,11 +60,39 @@ public class EmployeeAdapter extends ArrayAdapter<Employee> {
         Button buttonDelete = view.findViewById(R.id.buttonDeleteEmployee);
         Button buttonEdit = view.findViewById(R.id.buttonEditEmployee);
 
+        buttonEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                updateEmployee(employee);
+            }
+        });
 
+        //Delete
+        buttonDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+           AlertDialog.Builder builder = new AlertDialog.Builder(mCtx);
+           builder.setTitle("Sure?");
+           builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+               @Override
+               public void onClick(DialogInterface dialogInterface, int i) {
+                   String sql = "DELETE FROM employees WHERE id = ?";
+                    mDatabase.execSQL(sql,new Integer[]{employee.getId()});
+                    reloadEmployeesFromDatabase();
+               }
+           });
+            builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                }
+            });
+            AlertDialog dialog = builder.create();
+            dialog.show();
 
+            }
+        });
         return view;
-
     }
 
     private void updateEmployee(final Employee employee) {
